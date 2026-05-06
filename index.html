@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>/ˈpɑːθˌfʌɪndə/</title>
+    <script>
+        window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+            line-height: 1.5;
+            max-width: 640px;
+            margin: 1.5rem auto;
+            padding: 0 1rem;
+            color: #1a1a1a;
+            background: #fff;
+        }
+        .toggle {
+            cursor: pointer;
+            user-select: none;
+            display: block;
+            padding: 0.35rem 0;
+            font-weight: 500;
+            border-bottom: 1px solid #eee;
+            margin-bottom: 2px;
+        }
+        .toggle:hover {
+            background: #f5f5f5;
+        }
+        .toggle .icon {
+            display: inline-block;
+            width: 1.2em;
+            text-align: center;
+            margin-right: 0.3em;
+            font-size: 0.85em;
+            color: #666;
+        }
+        .section {
+            margin-left: 1.5rem;
+            border-left: 2px solid #eaeaea;
+            padding-left: 0.8rem;
+            margin-bottom: 0.2rem;
+        }
+        ul {
+            list-style: disc;
+            padding-left: 1.8rem;
+            margin: 0.3rem 0;
+        }
+        li {
+            margin: 0.15rem 0;
+        }
+        a {
+            color: #1a0dab;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        hr {
+            margin: 1.5rem 0;
+            border: 0;
+            border-top: 1px solid #ddd;
+        }
+        .leaf {
+            margin-left: 1.5rem;
+            padding: 0.15rem 0;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="font-family: 'JetBrains Mono', monospace; font-weight: 400; font-size: 1.6rem;">/ˈpɑːθˌfʌɪndə/</h1>
+
+    <!-- ATPL -->
+    <div>
+        <div class="toggle" onclick="toggleSection('atpl')">
+            <span class="icon" id="atpl-icon">▶</span> <b>ATPL 🚧</b>
+        </div>
+        <div id="atpl" style="display: none;">
+            <div class="section">
+                <!-- FI(S) -->
+                <div>
+                    <div class="toggle" onclick="toggleSection('fis')">
+                        <span class="icon" id="fis-icon">▶</span> FI(S) 🚧
+                    </div>
+                    <div id="fis" style="display: none;">
+                        <div class="section">
+                            <!-- Theory (SPL) -->
+                            <div>
+                                <div class="toggle" onclick="toggleSection('fis-theory')">
+                                    <span class="icon" id="fis-theory-icon">▶</span> Theory (SPL)
+                                </div>
+                                <div id="fis-theory" style="display: none;">
+                                    <ul>
+                                        <li>🟢 Air Law</li>
+                                        <li>🟡 Human Performance</li>
+                                        <li>🟢 Meteorology</li>
+                                        <li>🟢 Communications</li>
+                                        <li>🟢 Principles of Flight</li>
+                                        <li>🟡 Operational Procedures</li>
+                                        <li>🟡 Flight Performance &amp; Planning</li>
+                                        <li>🟢 Aircraft General Knowledge</li>
+                                        <li>🟡 Navigation</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Practicum (SPL) -->
+                            <div>
+                                <div class="toggle" onclick="toggleSection('fis-practicum')">
+                                    <span class="icon" id="fis-practicum-icon">▶</span> Practicum (SPL)
+                                </div>
+                                <div id="fis-practicum" style="display: none;">
+                                    <ul>
+                                        <li>15h TT</li>
+                                        <li>skill test</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Towing Rating -->
+                            <div>
+                                <div class="toggle" onclick="toggleSection('fis-towing')">
+                                    <span class="icon" id="fis-towing-icon">▶</span> Towing Rating (SFCL.205)
+                                </div>
+                                <div id="fis-towing" style="display: none;">
+                                    <ul>
+                                        <li>30h TT as PIC</li>
+                                        <li>60 TO/LDG in TMGs</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Time Building (FI) -->
+                            <div>
+                                <div class="toggle" onclick="toggleSection('fis-time')">
+                                    <span class="icon" id="fis-time-icon">▶</span> Time Building (FI)
+                                </div>
+                                <div id="fis-time" style="display: none;">
+                                    <ul>
+                                        <li>100h TT</li>
+                                        <li>200 launches as PIC on sailplanes</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="leaf"> + Theory (FI)</div>
+                    </div>
+                </div>
+
+                <!-- FI(A) -->
+                <div>
+                    <div class="toggle" onclick="toggleSection('fia')">
+                        <span class="icon" id="fia-icon">▶</span> FI(A) 🧊
+                    </div>
+                    <div id="fia" style="display: none;">
+                        <div class="section">
+                            <div>
+                                <div class="toggle" onclick="toggleSection('fia-theory')">
+                                    <span class="icon" id="fia-theory-icon">▶</span> Theory (PPL)
+                                </div>
+                                <div id="fia-theory" style="display: none;">
+                                    <ul>
+                                        <li>POF</li>
+                                        <li>🟡 OPS</li>
+                                        <li>🟡 FPP</li>
+                                        <li>AGK</li>
+                                        <li>🟡 NAV</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="toggle" onclick="toggleSection('fia-practicum')">
+                                    <span class="icon" id="fia-practicum-icon">▶</span> Practicum (PPL)
+                                </div>
+                                <div id="fia-practicum" style="display: none;">
+                                    <ul>
+                                        <li>24h TT (TMG)</li>
+                                        <li>15h (SEP)</li>
+                                        <li>skill test (2-3h)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="toggle" onclick="toggleSection('fia-time')">
+                                    <span class="icon" id="fia-time-icon">▶</span> Time Building (FI)
+                                </div>
+                                <div id="fia-time" style="display: none;">
+                                    <ul>
+                                        <li>200h TT (150h PIC)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="leaf"> + Theory (FI)</div>
+                    </div>
+                </div>
+            </div>
+            <div class="leaf"> + ATPL Theory</div>
+            <div class="leaf"> + Time Building</div>
+        </div>
+    </div>
+
+    <!-- AMT/AME -->
+    <div>
+        <div class="toggle" onclick="toggleSection('amt')">
+            <span class="icon" id="amt-icon">▶</span> <b>AMT/AME (B+C) 🚧</b>
+        </div>
+        <div id="amt" style="display: none;">
+            <div class="section">
+                <div>
+                    <div class="toggle" onclick="toggleSection('bx')">
+                        <span class="icon" id="bx-icon">▶</span> Theory (Bx)
+                    </div>
+                    <div id="bx" style="display: none;">
+                        <ul>
+                            <li>🔴 M1 (Mathematics)</li>
+                            <li>🔴 M2 (Physics)</li>
+                            <li>🔴 M3 (Electrical Fundamentals)</li>
+                            <li>🔴 M4 (Electronic Fundamentals)</li>
+                            <li>🔴 M5 (Digital Techniques/Electronic Instrument Systems)</li>
+                            <li>🔴 M6 (Materials &amp; Hardware)</li>
+                            <li>🔴 M7 (Maintenance Practices)</li>
+                            <li>🔴 M8 (Basic Aerodynamics)</li>
+                            <li>🔴 M9 (Human Factors)</li>
+                            <li>🔴 M10 (Aviation Legislation)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="toggle" onclick="toggleSection('b2')">
+                        <span class="icon" id="b2-icon">▶</span> Theory (B2) 🚧
+                    </div>
+                    <div id="b2" style="display: none;">
+                        <ul>
+                            <li>🟡 M13 (Aircraft Aerodynamics, Structures &amp; Systems)</li>
+                            <li>🔴 M14 (Propulsion)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="toggle" onclick="toggleSection('b1x')">
+                        <span class="icon" id="b1x-icon">▶</span> Theory (B1.x)
+                    </div>
+                    <div id="b1x" style="display: none;">
+                        <ul>
+                            <li>🔴 M11A (Turbine Aeroplane Aerodynamics, Structures &amp; Systems)</li>
+                            <li>🔴 M11B (Piston Aeroplane Aerodynamics, Structures &amp; Systems)</li>
+                            <li>🔴 M12 (Helicopter Aerodynamics, Structures &amp; Systems)</li>
+                            <li>🔴 M15 (Gas Turbine Engine)</li>
+                            <li>🔴 M16 (Piston Engine)</li>
+                            <li>🔴 M17 (Propeller Systems)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="leaf"> + Practicum: 3-5y (4,800–6,000h)</div>
+        </div>
+    </div>
+
+    <!-- Links -->
+    <div>
+        <div class="toggle" onclick="toggleSection('links')">
+            <span class="icon" id="links-icon">▶</span> <b>Links</b>
+        </div>
+        <div id="links" style="display: none;">
+            <ul>
+                <li>🔋✈️ <a href="https://vaeridion.com/">R. B. F.</a> 🛩️⚡</li>
+                <li>🛰️ <a href="https://careers.ses.com/">🅰️lways 🅱️e ©️onnected</a> 🌐</li>
+                <li><a href="https://pilotsglobal.com/">Career</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        function toggleSection(id) {
+            const el = document.getElementById(id);
+            const icon = document.getElementById(id + '-icon');
+            if (el.style.display === 'none' || el.style.display === '') {
+                el.style.display = 'block';
+                if (icon) icon.textContent = '▼';
+            } else {
+                el.style.display = 'none';
+                if (icon) icon.textContent = '▶';
+            }
+        }
+    </script>
+</body>
+</html>
