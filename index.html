@@ -73,6 +73,64 @@
 <body>
     <h1 style="font-family: 'JetBrains Mono', monospace; font-weight: 400; font-size: 1.6rem;">/ˈpɑːθˌfʌɪndə/</h1>
 
+    <!-- AMT/AME -->
+    <div>
+        <div class="toggle" onclick="toggleSection('amt')">
+            <span class="icon" id="amt-icon">▶</span> <b>AME (B+C) [████░░░░░░ 40 %]</b>
+        </div>
+        <div id="amt" style="display: none;">
+            <div class="section">
+                <div>
+                    <div class="toggle" onclick="toggleSection('bx')">
+                        <span class="icon" id="bx-icon">▶</span> Theory (Bx)
+                    </div>
+                    <div id="bx" style="display: none;">
+                        <ul>
+                            <li>🔴 M1 (Mathematics)</li>
+                            <li>🔴 M2 (Physics)</li>
+                            <li>🔴 M3 (Electrical Fundamentals)</li>
+                            <li>🔴 M4 (Electronic Fundamentals)</li>
+                            <li>🔴 M5 (Digital Techniques/Electronic Instrument Systems)</li>
+                            <li>🔴 M6 (Materials &amp; Hardware)</li>
+                            <li>🔴 M7 (Maintenance Practices)</li>
+                            <li>🔴 M8 (Basic Aerodynamics)</li>
+                            <li>🔴 M9 (Human Factors)</li>
+                            <li>🔴 M10 (Aviation Legislation)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="toggle" onclick="toggleSection('b2')">
+                        <span class="icon" id="b2-icon">▶</span> Theory (B2) 🚧
+                    </div>
+                    <div id="b2" style="display: none;">
+                        <ul>
+                            <li>🟡 M13 (Aircraft Aerodynamics, Structures &amp; Systems)</li>
+                            <li>🔴 M14 (Propulsion)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="toggle" onclick="toggleSection('b1x')">
+                        <span class="icon" id="b1x-icon">▶</span> Theory (B1.x)
+                    </div>
+                    <div id="b1x" style="display: none;">
+                        <ul>
+                            <li>🔴 M11A (Turbine Aeroplane Aerodynamics, Structures &amp; Systems)</li>
+                            <li>🔴 M11B (Piston Aeroplane Aerodynamics, Structures &amp; Systems)</li>
+                            <li>🔴 M12 (Helicopter Aerodynamics, Structures &amp; Systems)</li>
+                            <li>🔴 M15 (Gas Turbine Engine)</li>
+                            <li>🔴 M16 (Piston Engine)</li>
+                            <li>🔴 M17 (Propeller Systems)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="leaf"> + Practicum: 3-5y (1200h/y)</div>
+            <div class="leaf"> + 🟢 Academic Degree (BEng in EEE)</div>
+        </div>
+    </div>
+    
     <!-- ATPL -->
     <div>
         <div class="toggle" onclick="toggleSection('atpl')">
@@ -197,64 +255,6 @@
             </div>
             <div class="leaf"> + ATPL Theory</div>
             <div class="leaf"> + Time Building</div>
-        </div>
-    </div>
-
-    <!-- AMT/AME -->
-    <div>
-        <div class="toggle" onclick="toggleSection('amt')">
-            <span class="icon" id="amt-icon">▶</span> <b>AME (B+C) [████░░░░░░ 40 %]</b>
-        </div>
-        <div id="amt" style="display: none;">
-            <div class="section">
-                <div>
-                    <div class="toggle" onclick="toggleSection('bx')">
-                        <span class="icon" id="bx-icon">▶</span> Theory (Bx)
-                    </div>
-                    <div id="bx" style="display: none;">
-                        <ul>
-                            <li>🔴 M1 (Mathematics)</li>
-                            <li>🔴 M2 (Physics)</li>
-                            <li>🔴 M3 (Electrical Fundamentals)</li>
-                            <li>🔴 M4 (Electronic Fundamentals)</li>
-                            <li>🔴 M5 (Digital Techniques/Electronic Instrument Systems)</li>
-                            <li>🔴 M6 (Materials &amp; Hardware)</li>
-                            <li>🔴 M7 (Maintenance Practices)</li>
-                            <li>🔴 M8 (Basic Aerodynamics)</li>
-                            <li>🔴 M9 (Human Factors)</li>
-                            <li>🔴 M10 (Aviation Legislation)</li>
-                        </ul>
-                    </div>
-                </div>
-                <div>
-                    <div class="toggle" onclick="toggleSection('b2')">
-                        <span class="icon" id="b2-icon">▶</span> Theory (B2) 🚧
-                    </div>
-                    <div id="b2" style="display: none;">
-                        <ul>
-                            <li>🟡 M13 (Aircraft Aerodynamics, Structures &amp; Systems)</li>
-                            <li>🔴 M14 (Propulsion)</li>
-                        </ul>
-                    </div>
-                </div>
-                <div>
-                    <div class="toggle" onclick="toggleSection('b1x')">
-                        <span class="icon" id="b1x-icon">▶</span> Theory (B1.x)
-                    </div>
-                    <div id="b1x" style="display: none;">
-                        <ul>
-                            <li>🔴 M11A (Turbine Aeroplane Aerodynamics, Structures &amp; Systems)</li>
-                            <li>🔴 M11B (Piston Aeroplane Aerodynamics, Structures &amp; Systems)</li>
-                            <li>🔴 M12 (Helicopter Aerodynamics, Structures &amp; Systems)</li>
-                            <li>🔴 M15 (Gas Turbine Engine)</li>
-                            <li>🔴 M16 (Piston Engine)</li>
-                            <li>🔴 M17 (Propeller Systems)</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="leaf"> + Practicum: 3-5y (1200h/y)</div>
-            <div class="leaf"> + 🟢 Academic Degree (BEng in EEE)</div>
         </div>
     </div>
 
