@@ -1,3 +1,3 @@
 # go.easa.fi
 
-READ THE MAN
+C THE DOC
